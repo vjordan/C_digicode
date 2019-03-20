@@ -1,0 +1,100 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @INTERRUPT_AREA
+005     @INTERRUPT_AREA
+006     @INTERRUPT_AREA
+007     @INTERRUPT_AREA
+008     @INTERRUPT_AREA
+009     @INTERRUPT_AREA
+00A     @INTERRUPT_AREA
+00B     @INTERRUPT_AREA
+00C     @INTERRUPT_AREA
+00D     @INTERRUPT_AREA
+00E     @INTERRUPT_AREA
+00F     @INTERRUPT_AREA
+010     @INTERRUPT_AREA
+011     @INTERRUPT_AREA
+012     @INTERRUPT_AREA
+013     @INTERRUPT_AREA
+014     @INTERRUPT_AREA
+015     @INTERRUPT_AREA
+016-017 code
+018-019 dixieme
+01A-01B seconde
+01C.0   alarme
+01C.1   sonne
+01D     MAIN.@SCRATCH1
+01E     MAIN.@SCRATCH2
+01F     MAIN.@SCRATCH3
+020     MAIN.@SCRATCH4
+021-022 @MUL1616.P1
+021     EXT_isr.@SCRATCH1
+021     @PSTRINGC_9600_31766_31767.@SCRATCH1
+022     EXT_isr.@SCRATCH2
+022     @PSTRINGC_9600_31766_31767.@SCRATCH2
+023-024 @MUL1616.P1
+025     @MUL1616.@SCRATCH1
+F83     PSP_DATA
+FBB     CCP_2_LOW
+FBB     CCP_2
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P1
+FE9-FEA @READ_PROGRAM_MEMORY.P2
+FE9-FEA @WRITE_PROGRAM_MEMORY.P3
+FE9-FEA @WRITE_PACKED_MEMORY.P4
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P1
+FF6-FF8 @READ_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+00A2  TIMER1_isr
+010A  EXT_isr
+00CA  @MUL1616
+037C  @const89
+00E8  @PSTRINGC_9600_31766_31767
+038E  @const91
+03A2  @const92
+03B8  MAIN
+03B8  @cinit
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    F:\DUT\S2\Architecture et programmation\Digicode\
+
+Project Files:
+    digicode.c
+    digicode.h
+    C:\Program Files (x86)\PICC\devices\18F452.h
+
+Units:
+    F:\DUT\S2\Architecture et programmation\Digicode\digicode (main)
+
+Compiler Settings:
+    Processor:      PIC18F452
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      digicode.err
+    Ext Symbols: digicode.esym
+    INHX32:      digicode.hex
+    Symbols:     digicode.sym
+    List:        digicode.lst
+    Debug/COFF:  digicode.cof
+    Project:     digicode.PJT
+    Call Tree:   digicode.tre
+    Statistics:  digicode.sta

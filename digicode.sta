@@ -1,0 +1,52 @@
+
+ROM used: 1204 (4%)
+          1204 (4%) including unused fragments
+
+          2 Average locations per line
+          10 Average locations per statement
+
+RAM used: 33 (2%) at main() level
+          38 (2%) worst case
+
+Stack used: 2 worst case (out of 31 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  138   121 100  digicode.c
+   27     0   0  digicode.h
+  354     0   0  C:\Program Files (x86)\PICC\devices\18F452.h
+----- -----
+  519   121 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     40   2   0    96  2.9  TIMER1_isr
+0    626  26   2  2312  4.9  EXT_isr
+0     30   1   5             @MUL1616
+0     18   1   0             @const89
+0     34   1   2             @PSTRINGC_9600_31766_31767
+0     20   1   0             @const91
+0     22   1   0             @const92
+0    256  11   4  1419  6.9  MAIN
+
+Program metrics:
+    Functions               3
+    Statements              121
+    Comments                84
+    Volume (V)              4493
+    Difficilty (D)          14.8
+    Effort to implement (E) 66397
+    Time to implement (T)   1 hours, 1 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   24
+    Maintainability (MI)    118
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000A0   154  0  
+000A2-07FFE  1046  31560  
+
+
+

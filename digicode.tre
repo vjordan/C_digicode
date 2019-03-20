@@ -1,0 +1,18 @@
+읕digicode
+   쳐MAIN  0/256  Ram=4
+   �  읕??0??
+   쳐TIMER1_isr  0/40  Ram=0
+   읕EXT_isr  0/626  Ram=2
+      쳐@MUL1616  0/30  Ram=5
+      쳐@MUL1616  0/30  Ram=5
+      쳐@MUL1616  0/30  Ram=5
+      쳐@MUL1616  0/30  Ram=5
+      쳐@MUL1616  0/30  Ram=5
+      쳐@MUL1616  0/30  Ram=5
+      쳐@MUL1616  0/30  Ram=5
+      쳐@MUL1616  0/30  Ram=5
+      쳐@MUL1616  0/30  Ram=5
+      쳐@MUL1616  0/30  Ram=5
+      쳐@PSTRINGC_9600_31766_31767  0/34  Ram=2
+      쳐@PSTRINGC_9600_31766_31767  0/34  Ram=2
+      읕@PSTRINGC_9600_31766_31767  0/34  Ram=2

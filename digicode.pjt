@@ -1,0 +1,24 @@
+[PROJECT]
+Target=F:\DUT\S2\Architecture et programmation\Digicode\digicode.hex
+Development_Mode=
+Processor_Text=PIC18F452
+ToolSuite=CCS
+Processor=0x452F
+[F:\DUT\S2\Architecture et programmation\Digicode\digicode]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=F:\DUT\S2\Architecture et programmation\Digicode\digicode.c
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[Units]
+Link=0
+Count=1
+1=F:\DUT\S2\Architecture et programmation\Digicode\digicode
+[Opened Files]
+1=digicode.c
+2=
